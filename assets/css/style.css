@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header a {
+    color: white;
+}
+
+header {
+    padding: 20px 35 px;
+    background-color: #000000;
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.dog {
+    width: 70px;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+h1 {
+    display: flex;
+    align-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding-right: 30px;
+    font-size: 20px
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+span {
+    padding-left: 30px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 32px;
+    padding: 20px 0px 20px 100px;
+}
+
+h2 {
+    display:flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+
+.intro {
+    padding-left: 280px;
+}
+
+.app1 {
+    padding: 1px;
+    background-color: #000000;
+    color: white;
+}
+
+.app1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
+.app2 {
+    padding-left: 280px;
+}
+
+.app3 {
+    padding-left: 280px;
+}
+
+.contact-info {
+    padding-left: 280px;
+}
