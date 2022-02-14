@@ -13,8 +13,8 @@
             <img class="dog" src="./assets/images/icon.png">
             <a href="">Jack Ford</a>
         </h1>
-        <nav class="nav">
-            <ul>
+        <nav>
+            <ul class="nav-style">
                 <li>
                     <a href="#about-me">About Me</a>
                 </li>
@@ -32,6 +32,8 @@
     </header>
 
     <section class="hero">
+        <div class="hero-subtitle"></div>
+            <span class="span-bg-opacity"></span>
 
     </section>
 
@@ -40,39 +42,72 @@
         <p class="intro">Hello! My name is Jack Ford, and you're looking at my portfolio! I'm a North Medford graduate, working on getting a certificate for coding!</p>
     </section>
 
-    <section id="work">
-        <h2>Work</h2>
-        <div class="app1">
-            <h3>Surf Report</h3>
-            <p>MERN Stack</p>
+    <!--After some research, browsing other websites and taking notes on Github repos, (thank you esroleo specifically, genuine breakthrough)-->
+    <!--Realized I could plave an entire div in an attribute link-->
+    <article>
+        <div id="work" class="work-wrapper">
+            <div class="work-grid-container">
+                <div class="work-item work-title">
+                    <p>Work</p>
+                </div>
+            <a href="https://jackyford.github.io/Horieson-code-refractor-proj/" class="horieson">
+                <div>
+                    <span class="span background">
+                        <h3>Horieson Services</h3>
+                        <span class="lower-text">HTML/CSS</span>
+                    </span>
+                </div>
+            </a>
+            <a href="https://jackyford.github.io/run-buddy/" class="run-buddy">
+                <div>
+                    <span class="span background">
+                        <h3>RUN BUDDY (still WIP)</h3>
+                        <span class="lower-text">HTML/CSS</span>
+                    </span>
+                </div>
+            </a>
+            <a href="" class="phold1">
+                <div>
+                    <span class="span background">
+                        <h3>Placeholder</h3>
+                        <span class="lower-text">Come Back Soon!</span>
+                    </span>
+                </div>
+            </a>
+            <a href="" class="phold2">
+                <div>
+                    <span class="span background">
+                        <h3>Placeholder</h3>
+                        <span class="lower-text">Come Back Soon!</span>
+                    </span>
+                </div>
+            </a>
+            <a href="" class="phold3">
+                <div>
+                    <span class="span background">
+                        <h3>Placeholder</h3>
+                        <span class="lower-text">Come Back Soon!</span>
+                    </span>
+                </div>
+            </a>
+            </div>
         </div>
-        <div class="app2">
-            <h3>LED Wall</h3>
-            <p>Node/IoT</p>
-        </div>
-        <div class="app3">
-            <h3>Caclulator</h3>
-            <p>React/Javascript/CSS</p>
-        </div>
-        <div class="app2">
-            <h3>Pastel Puzzels</h3>
-            <p>MERN Stack</p>
-        </div>
-        <div class="app3">
-            <h3>Run Buddy</h3>
-            <p>HTML/CSS</p>
-        </div>
-    </section>
 
-    <section id="contact-me">
-        <h2>Contact Me</h2>
-        <div class="contact-info">
-            <a href="jacksford78@gmail.com">jacksford78@gmail.com</a>
-            <a href="">541-816-6256</a>
-            <a href="https://github.com/JackyFord">Github</a>
-            <a href="https://twitter.com/dogboydead">Twitter</a>
+    <footer>
+        <div id="contact-info" class="footer-wrapper">
+            <div class="footer-container">
+                <div class="foot-item contact-me">
+                <h2>Contact Me</h2>
+                    <div class="contact-info">
+                        <a href="jacksford78@gmail.com" class="foot-item email">jacksford78@gmail.com</a>
+                        <a href="" class="foot-item phone">541-816-6256</a>
+                        <a href="https://github.com/JackyFord" class="foot-item github">Github</a>
+                        <a href="https://twitter.com/dogboydead" class="foot-item twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
+    </footer>
     </section>
 </body>
 </html>
