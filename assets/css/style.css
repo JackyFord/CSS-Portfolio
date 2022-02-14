@@ -8,6 +8,7 @@
     --header-footer-background-color: #000000;
     --dark-cont-text-border: #c5c6f7;
     --hovercolor: #525dfa;
+    --border-color-opacity: rgba(135, 206, 250, 0.8);
 }
 
 html {
@@ -71,29 +72,100 @@ header a {
     grid-gap: 20px 20px;
 }
 
+.work-item.work-title {
+    padding-top: 10px;
+    font-size: 35px;
+    grid-row: 1 / span 3;
+    text-align: right;
+    padding-right: 10px;
+    border-right: 2px solid var(--dark-cont-text-border);
+}
+
 .horieson {
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-image: url("../../assets/images/horieson.png");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    text-align: left;
+    border: .25vw solid var(--border-color-opacity);
 }
 
 .run-buddy {
     grid-column-start: 1;
     grid-column-end: 1;
+    background-image: url("../../assets/images/runbuddy.png");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    text-align: left;
+    border: .25vw solid var(--border-color-opacity)
 }
 
 .phold1 {
     grid-column-start: 2;
     grid-column-end: 2;
+    background-image: url("../../assets/images/smiley.png");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    text-align: left;
+    border: .25vw solid var(--border-color-opacity)
 }
 
 .phold2 {
     grid-column-start: 1;
     grid-column-end: 1;
+    background-image: url("../../assets/images/smiley.png");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    text-align: left;
+    border: .25vw solid var(--border-color-opacity)
 }
 
 .phold3 {
     grid-column-start: 2;
     grid-column-end: 2;
+    background-image: url("../../assets/images/smiley.png");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    text-align: left;
+    border: .25vw solid var(--border-color-opacity)
+}
+
+.span-background {
+    background-color: var(--dark-cont-text-border);
+    position: relative;
+    line-height: 1.5;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5%;
+    opacity: .8;
+}
+
+.span-background.title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.span-background.opacity {
+    opacity: .95;
+    font-size: 30px;
 }
 
 footer {
