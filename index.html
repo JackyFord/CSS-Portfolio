@@ -18,13 +18,13 @@
                 <li>
                     <a href="#about-me">About Me</a>
                 </li>
-                <span></span><li>
+                <li>
                     <a href="#work">Work</a>
                 </li>
-                <span></span><li>
+                <li>
                     <a href="#contact-me">Contact Me</a>
                 </li>
-                <span></span><li>
+                <li>
                     <a href="./assets/resume/Resume.docx">Resume</a>
                 </li>
             </ul>
@@ -34,79 +34,86 @@
     <section class="hero">
         <div class="hero-subtitle"></div>
             <span class="span-bg-opacity"></span>
-
     </section>
 
     <section id="about-me">
-        <h2>About Me</h2>
+        <h2 class="flex-row">About Me</h2>
         <p class="intro">Hello! My name is Jack Ford, and you're looking at my portfolio! I'm a North Medford graduate, working on getting a certificate for coding!</p>
     </section>
 
     <!--After some research, browsing other websites and taking notes on Github repos, (thank you esroleo specifically, genuine breakthrough)-->
     <!--Realized I could plave an entire div in an attribute link-->
     <article>
-        <div id="work" class="work-wrapper">
-            <div class="work-grid-container">
-                <div class="work-item work-title">
-                    <p>Work</p>
+        <div>
+            <div id="work">
+                <div class="flex-row">
+                    <h2>Work</h2>
                 </div>
-            <a href="https://jackyford.github.io/Horieson-code-refractor-proj/" class="horieson">
-                <div>
+                <div class="work-flex">
+            <a href="https://saintshay.github.io/Horieson-code-refractor-proj/" class="horieson">
+                <div class="grid-block" id="big-boy">
                     <span class="span background">
                         <h3>Horieson Services</h3>
                         <span class="lower-text">HTML/CSS</span>
                     </span>
                 </div>
+                <img id="big-img" src="./assets/images/horieson.png" alt="horieson project screenshot">
             </a>
-            <a href="https://jackyford.github.io/run-buddy/" class="run-buddy">
-                <div>
+            <a href="https://saintshay.github.io/run-buddy/" class="run-buddy">
+                <div class ="grid-block">
                     <span class="span background">
-                        <h3>RUN BUDDY (still WIP)</h3>
+                        <h3>RUN BUDDY</h3>
                         <span class="lower-text">HTML/CSS</span>
                     </span>
                 </div>
+                <img id="small-img" src="./assets/images/runbuddy.png" alt="runbuddy project screenshot">
             </a>
             <a href="" class="phold1">
-                <div>
+                <div class ="grid-block">
                     <span class="span background">
                         <h3>Placeholder</h3>
                         <span class="lower-text">Come Back Soon!</span>
                     </span>
                 </div>
+                <img id="small-img" src="./assets/images/smiley.png" alt="placeholder screenshot">
             </a>
             <a href="" class="phold2">
-                <div>
+                <div class ="grid-block">
                     <span class="span background">
                         <h3>Placeholder</h3>
                         <span class="lower-text">Come Back Soon!</span>
                     </span>
                 </div>
+                <img id="small-img" src="./assets/images/smiley.png" alt="placeholder screenshot">
             </a>
             <a href="" class="phold3">
-                <div>
+                <div class ="grid-block">
                     <span class="span background">
                         <h3>Placeholder</h3>
                         <span class="lower-text">Come Back Soon!</span>
                     </span>
                 </div>
+                <img id="small-img" src="./assets/images/smiley.png" alt="placeholder screenshot">
             </a>
+            </div>
+            </div>
             </div>
         </div>
 
     <footer>
-        <div id="contact-info" class="footer-wrapper">
+        <div id="contact-me" class="footer-wrapper">
             <div class="footer-container">
-                <div class="foot-item contact-me">
+                <div class="foot-item contact-me" class="flex-row">
                 <h2>Contact Me</h2>
-                    <div class="contact-info">
+                </div>
+                    <div class="contact-me">
                         <a href="jacksford78@gmail.com" class="foot-item email">jacksford78@gmail.com</a>
                         <a href="" class="foot-item phone">541-816-6256</a>
-                        <a href="https://github.com/JackyFord" class="foot-item github">Github</a>
-                        <a href="https://twitter.com/dogboydead" class="foot-item twitter">Twitter</a>
+                        <a href="https://github.com/SaintShay" class="foot-item github">Github</a>
+                        <a href="https://twitter.com/MuttSaint" class="foot-item twitter">Twitter</a>
                     </div>
                 </div>
             </div>
-        </div>
     </footer>
     </section>
 </body>
